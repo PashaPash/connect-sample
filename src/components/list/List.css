@@ -1,0 +1,4 @@
+.list_roll {
+  height: ~"calc(100% - 152px)";
+  position: relative;
+}

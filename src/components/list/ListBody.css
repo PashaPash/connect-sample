@@ -1,0 +1,7 @@
+.list_body {
+  height: ~"calc(100% - 50px)";
+  position: relative;
+  max-width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+}

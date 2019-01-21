@@ -1,0 +1,32 @@
+.inner_container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    background-color: #fafbfc;
+    font-family: @var-font-family;
+    font-size: @var-font-default-size;
+    min-width: 948px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    min-width: 948px;
+    border: @var-list-border;
+    border-bottom: 0;
+    background-color: #fff;
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.opened_details {
+    min-width: @var-min-width-when-opened-details;
+}
+
+@media screen and (max-width: 1383px){
+    .opened_details .list {
+        min-width: 767px;
+    }
+}
